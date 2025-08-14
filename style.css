@@ -243,8 +243,16 @@ article div p{
     transition: all 0.3s ease;
 }
 .alert-heading{
+    align-items: center;
     display: flex;
+    flex-wrap: wrap;
+    background:#fcb69f;
+    border-radius: 6rem;
+    padding: 5rem;
     gap: 3rem;
+}
+.alert-heading h2{
+    color: #242222;
 }
 .contact-items a i{
     margin-right: 8px;
